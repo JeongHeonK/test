@@ -14,15 +14,6 @@ export default function Navbar() {
 				Home
 			</NavLink>
 			<NavLink
-				to="/fp"
-				className={({ isActive }) =>
-					cn(' w-[100px] text-center', isActive && 'font-bold text-blue-800')
-				}
-				end
-			>
-				FP
-			</NavLink>
-			<NavLink
 				to="/typescript"
 				className={({ isActive }) =>
 					cn(' w-[100px] text-center', isActive && 'font-bold text-blue-800')
